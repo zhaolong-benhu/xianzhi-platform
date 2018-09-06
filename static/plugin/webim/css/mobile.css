@@ -1,0 +1,37 @@
+.video-sms-pane {
+	display:inline-block
+}
+.video-sms-text {
+    padding: 2px 10px;
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 250px;
+    line-height: 18px;
+    color: #000;
+    word-wrap: break-word
+}
+.video-sms-text span {
+	padding-right:10px;
+	vertical-align:top;
+	color:#000
+}
+.video-sms-text span.user-name{
+	color:#2b84f1;
+	display: none;
+}
+.video-sms-text span.user-name-green {
+	color:#2b84f1;
+	display: none;
+}
+.video-sms-text span.user-name-red {
+	color:#f12b5b
+}
+.video-sms-text span.user-name-blue {
+	color:#2b84f1;
+}
+.video-sms-text span.user-name-org {
+	color:#ff7906;
+	display: none;
+}

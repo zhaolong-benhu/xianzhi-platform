@@ -1,0 +1,78 @@
+.bomb_box{
+  background-color: #F5F5F5;
+  z-index: 1000;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -36%;
+  margin-top: -70px;
+  width: 72%;
+  height: 193px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  .info{
+    height: 47%;
+    width: 84%;
+    font-size: 14px;
+    padding: 8%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    .tips{
+      color: #000;
+      height: 25%;
+      font-family: "黑体 Std R";
+    }
+    .name{
+      height: 25px;
+      margin-top: 8px;
+      border: 1px solid #ababab;
+      border-radius: 4px;
+    }
+
+  }
+  .yesorno{
+    height: 30%;
+    width: 100%;
+    border-top: 1px solid #ababab;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    justify-content: space-between;
+    a{
+      width: 50%;
+      font-size: 16px;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid #ababab;
+      text-decoration: none;
+      font-family: "黑体 Std R";
+      &.ok{
+        color: #3773D8;
+      }
+      &:last-child{
+        border-right:none;
+      }
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 360px) {
+  .bomb_box{
+    height:160px;
+    .info{
+      height: 55%;
+      font-size: 12px;
+    }
+    .yesorno{
+      height: 27%;
+    }
+  }
+
+}

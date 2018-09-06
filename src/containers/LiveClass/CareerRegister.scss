@@ -1,0 +1,22 @@
+
+.container {
+  padding-top: 46px;
+  background: #fff;
+}
+.btnWrapper {
+  width:100%;
+  background:#eee;
+  .btn {
+    background: #157eda;
+    color: #fff;
+    width: 94%;
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    margin-top: 20px;
+    margin-left: 3%;
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+  }
+}

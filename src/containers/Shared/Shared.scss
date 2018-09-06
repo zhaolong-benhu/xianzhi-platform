@@ -1,0 +1,33 @@
+.shared{
+  background-size: 100%;
+  background-repeat: round;
+  position: relative;
+  .sharedbox{
+    position: absolute;
+    top: 33%;
+    width: 72%;
+    padding: 0 14%;
+    text-align: center;
+    .user{
+      color: #fdfbef;
+      font-size: 15px;
+      .user_head{
+        width: 44px;
+        height: 44px;
+        border-radius: 22px;
+        margin: 0 5px;
+      }
+    }
+    .tips{
+      color: #fdfbef;
+      font-size: 15px;
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .shared{
+    .sharedbox {
+        top: 37%;
+    }
+  }
+}

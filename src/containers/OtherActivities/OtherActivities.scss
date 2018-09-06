@@ -1,0 +1,166 @@
+.activities{
+  padding-top: 45px;
+  .item{
+    position: relative;
+    width: auto;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:  space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    color: #666666;
+    font-family: "宋体";
+    font-size: 14px;
+    height: auto;
+    text-align: center;
+    border-bottom: 1px solid #ECECEC;
+    margin-bottom: 15px;
+    .nav{
+      width: 20%;
+      //background-color: #00d4b4;
+      color: #666666;
+      line-height: 30px;
+    }
+    .nav_selected{
+      width: 20%;
+      color: #157eda;
+      line-height: 30px;
+      border-bottom: 3px solid #3773D8;
+    }
+  }
+}
+.noactivity{
+  text-align: center;
+  font-size: 15px;
+}
+.root{
+  overflow: hidden;
+  .items{
+  margin: 10px;
+  height: auto;
+  width: auto;
+
+  .img{
+    width: 35%;
+    background-color: #00ee00;
+    float: left;
+    .pic{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .info{
+    width: 65%;
+    height: 100%;
+    float: left;
+    // background-color: green;
+
+    .column{
+      width: auto;
+      height: 100%;
+      display: -webkit-flex; /* Safari */
+      display: flex;
+      flex-direction: column;
+      align-items:flex-start;
+      //justify-content:  space-around;
+      //flex-grow: 1;
+      //flex-wrap: wrap;
+      //background-color: #00ee00;
+
+      .zl{
+        background-color: red;
+        height: 30%;
+      }
+      .title{
+        margin-left: 10px;
+        padding: 6px 0px;
+        //height: 31%;
+
+        .type{
+          width: auto;
+          height: auto;
+          background-color: red;
+          float: left;
+          font-size: 13px;
+          border-radius: 2px;
+          color: #FFFFFF;
+        }
+        .name{
+          width: auto;
+          height: 20px;
+          float: left;
+          color: #333333;
+          font-size: 14px;
+          margin-left: 5px;
+
+
+
+        }
+      }
+      .user{
+        margin-left: 10px;
+        font-size: 13px;
+        padding: 6px 0px;
+        .name{
+          color: #333333;
+        }
+        .date{
+          margin-left: 10px;
+          color: #ababab;
+        }
+        .city{
+          color: #ababab;
+        }
+
+      }
+      .price{
+        width: 100%;
+        margin-left: 10px;
+        font-size: 12px;
+        padding: 5px 0;
+        .now_price{
+          color: red;
+          font-size: 13px;
+
+        }
+        .before_price{
+          color: #ababab;
+          text-decoration: line-through;
+          font-size: 10px;
+          margin-left: 5px;
+        }
+        .discount{
+          color: red;
+          font-size: 12px;
+          margin-left: 5px;
+
+        }
+        .interested{
+          color: #ababab;
+          font-size: 12px;
+          margin-left: 5px;
+          float: right;
+          padding-right: 10px;
+
+        }
+      }
+    }
+  }
+
+  .split_line{
+    width: 65%;
+    height: 1px;
+    background-color: #ECECEC;
+    float: right;
+  }
+  .emp{
+    height: 10px;
+    width: 100%;
+    background-color: red;
+  }
+}
+
+}

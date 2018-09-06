@@ -1,0 +1,86 @@
+.bomb_box{
+  background-color: #F3F3F3;
+  z-index: 1001;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -36%;
+  margin-top: -70px;
+  width: 72%;
+  height: 193px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  .info{
+    height: 65%;
+    width: 84%;
+    font-size: 14px;
+    padding: 5% 8%;
+    .item{
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #ababab;
+        background: #fff;
+        font-weight: 700;
+        margin-top: 5%;
+        .text{
+            font-size: 14px;
+            line-height: 30px;
+            padding-left: 5px;
+        }
+        .text2{
+            font-size: 14px;
+            line-height: 30px;
+            padding-left: 5px;
+            color: #f78a29;
+        }
+        .money{
+            font-size: 15px;
+            border: none;
+            margin-top: -4px;
+            width: 60%;
+            padding-left: 5px;
+            color: #f78a29;
+        }
+    }
+  }
+  .yesorno{
+    height: 28%;
+    width: 100%;
+    border-top: 1px solid #ababab;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    justify-content: space-between;
+    a{
+      width: 50%;
+      font-size: 16px;
+      color: #6D9AAC;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid #ababab;
+      text-decoration: none;
+      font-family: "黑体 Std R";
+      font-weight: 700;
+      &.ok{
+          font-size: 19px;
+      }
+      &:last-child{
+        border-right:none;
+      }
+    }
+  }
+}
+.bomb_box2{
+    display: none;
+}
+@media screen and (max-width: 360px) {
+  .bomb_box{
+    height:160px;
+    .info{
+      height: 60%;
+      font-size: 12px;
+    }
+  }
+}

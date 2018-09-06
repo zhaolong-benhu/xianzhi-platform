@@ -1,0 +1,54 @@
+.bomb_box{
+  background-color: #F5F5F5;
+  z-index: 1000;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -35%;
+  margin-top: -11.5%;
+  width: 70%;
+  // height: 23%;
+  height: 160px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  .info{
+    height: 66%;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .yesorno{
+    height: 34%;
+    width: 100%;
+    border-top: 1px solid #ababab;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    justify-content: space-between;
+    a{
+      width: 50%;
+      font-size: 16px;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid #ababab;
+      text-decoration: none;
+      height: 100%;
+      &.ok{
+        color: #3773D8;
+      }
+      &:last-child{
+        border-right:none;
+      }
+    }
+
+    .ok{
+      color: #3773D8;
+    }
+  }
+
+}

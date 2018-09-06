@@ -1,0 +1,47 @@
+.container{
+    padding-top: 45px;
+    background-color: #EEEEEE;
+    .qusetion{
+        height: 30px;
+        line-height: 30px;
+        padding-left: 15px;
+        // background-color: #EEEEEE;
+        color: #999999;
+        font-size: 12px;
+    }
+    .tips,.tips2{
+        background-color: #FFFFFF;
+        .ques{
+            height: 35px;
+            line-height: 35px;
+            font-size: 16px;
+            color: #157eda;
+            margin-left: 3%;
+            width: 100%;
+            border-bottom: 1px solid #EEEEEE;
+        }
+        .text{
+            padding: 0px 15px;
+            font-size: 15px;
+            color:#333333;
+            line-height: 30px;
+        }
+    }
+    .tips2{
+        border-top: 10px solid #EEEEEE;
+    }
+    .contact{
+        padding-top: 55%;
+        padding-left: 30%;
+        .text1{
+            color: #999999;
+        }
+
+        .text2{
+            color: #157eda;
+            padding-left: 5px;
+        }
+    }
+
+
+}

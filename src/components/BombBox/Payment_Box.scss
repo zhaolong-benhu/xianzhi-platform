@@ -1,0 +1,121 @@
+.bomb_box{
+  background-color: #F5F5F5;
+  z-index: 1000;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -35%;
+  margin-top: -70px;
+  width: 70%;
+  height: 27%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  .info{
+    height: 53%;
+    width: 93%;
+    font-size: 16px;
+    padding: 5% 0 5% 7%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    .tips{
+      color: #000;
+      height: 25%;
+    }
+    .title{
+      color: #3773D8;
+      // height: 35%;
+      padding-top: 7px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      -webkit-box-orient: vertical;
+
+    }
+    .money{
+        display: flex;
+        flex-direction: row;
+        height: 25%;
+
+        .price{
+          width: 60%;
+          color: red;
+        }
+        .buys{
+            width: 40%;
+            float: right;
+            display: flex;
+            .reduce,.reduce2{
+                width:25px;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                color: #ababab;
+                border: 1px solid #ababab;
+            }
+            .num{
+                width:25px;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                color: #333333;
+                border-left: none;
+                border-right: none;
+                border-top: 1px solid #ababab;
+                border-bottom: 1px solid #ababab;
+            }
+            .reduce2{
+                color: #333333;
+            }
+
+        }
+    }
+
+  }
+  .yesorno{
+    height: 30%;
+    width: 100%;
+    border-top: 1px solid #ababab;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    justify-content: space-between;
+    a{
+      width: 50%;
+      font-size: 16px;
+      color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid #ababab;
+      text-decoration: none;
+      &.ok{
+        color: #3773D8;
+      }
+      &:last-child{
+        border-right:none;
+      }
+    }
+
+    .ok{
+      color: #3773D8;
+    }
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .bomb_box{
+    height:160px;
+    .info{
+        .money{
+            .price{
+                width: 57%;
+            }
+        }
+    }
+  }
+}

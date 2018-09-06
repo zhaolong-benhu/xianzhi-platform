@@ -1,0 +1,29 @@
+.aboutus{
+    .picture{
+        padding-top:45px;
+        img{
+            display:block;
+            // width:126px;
+            // height:54px;
+            margin:35px auto;
+        }
+        h3{
+            color:#31B3EA;
+            text-align:center;
+            font-size: 16px;
+        }
+        p{
+            margin-top: 15px;
+            margin-left: 20px;
+            margin-right: 20px;
+            line-height:30px;
+            font-size: 14px;
+        }
+        .text{
+          margin-left: 20px;
+          margin-right: 20px;
+          line-height:30px;
+          font-size: 14px;
+        }
+    }
+}

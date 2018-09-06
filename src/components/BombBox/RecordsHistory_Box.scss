@@ -1,0 +1,30 @@
+.bomb_box{
+background-color: #FFFFFF;
+z-index: 100;
+position:absolute;
+right: 0;
+width: 105px;
+border-radius: 5px;
+border: 1px solid #ECECEC;
+font-size: 12px;
+margin-top: 34px;
+.root{
+  height: 100%;
+  width: 100%;
+
+  .nav_last,.nav{
+    width: 80%;
+    height: 27px;
+     font-size: 15px;
+     margin-left: 10px;
+     color: #999999;
+     .text{
+     }
+  }
+  .nav{
+       border-bottom: 1px solid #ececec;
+  }
+}
+
+
+}

@@ -1,0 +1,41 @@
+.messagedetail{
+
+.message{
+  border-bottom: 10px solid #ececec;
+  padding: 3%;
+  width: 94%;
+  background: #fff;
+  font-size: 14px;
+  padding-top: 60px;
+  .title{
+    color: #157eda;
+    font-size: 20px;
+  }
+
+  .sendname{
+    color: #333333;
+    font-weight: 600px;
+  }
+  .name{
+    color: #999;
+    margin-left: 10px;
+  }
+}
+.username{
+  padding: 3%;
+  width: 94%;
+  color: #333333;
+  font-size: 16px;
+}
+.detail{
+  width: 94%;
+  color: #333333;
+  font-size: 16px;
+  padding: 0 3%;
+  background: #fff;
+  .text{
+    text-indent:4em;
+    line-height: 28px;
+  }
+}
+}

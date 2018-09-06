@@ -1,0 +1,135 @@
+.container {
+
+  margin-top: 10px;
+
+  .line {
+    width: 100%;
+    height: 10px;
+    background-color: #ECECEC;
+  }
+  .title {
+    font-size: 15px;
+    border-bottom: 1px solid #ECECEC;
+    padding: 5px 0px;
+    margin-left: 10px;
+
+    .num {
+      color: red;
+    }
+
+  }
+
+  .empty{
+    width: 100%;
+    height: 12px;
+    //background-color: red;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    padding: 0 10px;
+
+    .pic {
+      width: 35%;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .info {
+      width: 63%;
+      display: flex;
+      justify-content: space-between;
+      align-content: space-between;
+      flex-direction: column;
+      position: relative;
+
+      span {
+        font-size: 12px;
+        color: #ababab;
+        &.fr {
+          float: right;
+        }
+      }
+
+      .type {
+        background-color: #D03B3C;
+        border-radius: 3px;
+        font-size: 13px;
+        color: #FFFFFF;
+        padding: 0 4px;
+      }
+      .type2 {
+        background-color: #659DF2;
+        border-radius: 3px;
+        font-size: 13px;
+        color: #FFFFFF;
+        padding: 0 4px;
+      }
+      .type3 {
+        background-color: #E79138;
+        border-radius: 3px;
+        font-size: 13px;
+        color: #FFFFFF;
+        padding: 0 4px;
+      }
+      .type4 {
+        background-color: #5CC97C;
+        border-radius: 3px;
+        font-size: 13px;
+        color: #FFFFFF;
+        padding: 0 4px;
+      }
+      .title2 {
+        font-size: 15px;
+        color: #333333;
+        font-weight: 700;
+        margin-left: 0px;
+      }
+      .name {
+        color: #333;
+      }
+
+      .time {
+        margin: 0 5px;
+      }
+      .free {
+        color: red;
+        font-size: 14px;
+      }
+      .sale {
+        font-size: 10px;
+        text-decoration: line-through;
+        margin: 0 5px;
+      }
+      .discount {
+        font-size: 10px;
+        color: #ff2e2e;
+      }
+      .price {
+        span {
+          color: #ff2e2e;
+          font-size: 14px;
+          float: left;
+        }
+      }
+      h1 {
+        font-size: 16px;
+        color: #333;
+      }
+      .seperator{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #eee;
+        background-color: #eee;
+        //margin-top: 20px;
+        //position: absolute;
+        //top: 105%;
+      }
+
+    }
+  }
+}

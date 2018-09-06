@@ -1,0 +1,22 @@
+.container{
+  padding-left:8px;
+  background: #fff;
+  .title{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color:#157eda;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    line-height: 32px;
+  }
+  p{
+    font-weight: bold;
+  }
+  ul{
+    margin-top: 6px;
+    padding-bottom: 10px;
+  }
+  li{
+    list-style: inside;
+  }
+}

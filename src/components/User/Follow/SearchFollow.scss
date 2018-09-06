@@ -1,0 +1,50 @@
+.searchfollow{
+  width: 100%;
+  height: 100%;
+  background-color: #DCDCDC;
+  position: fixed;
+  top: 105px;
+  opacity: 0.98;
+
+  .info{
+    height: auto;
+    width: 100%;
+    background-color: #DCDCDC;
+
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    // justify-content:  space-around;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    color: #666666;
+    font-family: "宋体";
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: fixed;
+
+    .nav{
+      width: 25%;
+      margin-top: 15px;
+    //   &:nth-last-child(3){
+    //       padding-left: 12%;
+    //   }
+      .img{
+        width:54px;
+        height:54px;
+      }
+
+      .name{
+        color: #000;
+        text-decoration: none;
+        margin-top: 10px;
+        text-decoration: none;
+        a:hover {text-decoration: none;}
+      }
+
+    }
+  }
+}

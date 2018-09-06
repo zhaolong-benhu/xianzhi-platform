@@ -1,0 +1,124 @@
+.container{
+  width: 100%;
+  height:auto;
+  .info{
+    //border-bottom: 1px solid #ececec;
+    margin-left: 10px;
+
+    .evaluation{
+      font-size: 15px;
+      color: #000;
+      line-height: 30px;
+    }
+    .more{
+      font-family:"iconfont" !important;
+      font-size:12px;
+      font-style:normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale;
+      color:#157eda;
+      margin-left: 5px;
+      float: right;
+      line-height: 33px;
+      margin-right: 10px;
+
+    }
+    .look_all{
+      color: #a4a4a4;
+      float: right;
+      font-size: 14px;
+      line-height: 30px;
+
+    }
+  }
+
+  .course{
+   padding-top: 45px;   
+  .list{
+      padding: 15px 10px;
+      li{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3%;
+        .pic{
+          width: 35%;
+          margin-bottom: 3%;
+          img{
+            width: 100%;
+            height: auto;
+          }
+        }
+        .info{
+          width:63%;
+          display: flex;
+          justify-content: space-between;
+          align-content: space-between;
+          flex-direction: column;
+          padding-bottom: 3%;
+          border-bottom: 1px solid #eee;
+
+          span{
+            &.fr{
+              float: right;
+            }
+          }
+
+          .title{
+            font-size: 15px;
+            color:#333333;
+            font-weight: 700;
+            margin-left: 5px;
+          }
+
+           .people{
+             font-size: 14px;
+             color: #a4a4a4;
+           }
+
+          .name{
+            color: #333;
+          }
+
+          .combination{
+            margin-top: 3px;
+            margin-right: 10px;
+            color: red;
+            font-size: 15px;
+            padding: 0 2px;
+
+          }
+
+          .time{
+            margin:0 5px;
+          }
+          .free{
+            color: red;
+            font-size: 14px;
+          }
+          .sale{
+            font-size: 10px;
+            text-decoration: line-through;
+            margin:0 5px;
+          }
+          .discount{
+            font-size: 10px;
+            color: #ff2e2e;
+          }
+          .price{
+            span{
+              color: #ff2e2e;
+              font-size: 14px;
+              float: left;
+            }
+          }
+          h1{
+            font-size: 16px;
+            color: #333;
+          }
+
+        }
+      }
+    }
+  }
+}

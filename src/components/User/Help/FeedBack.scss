@@ -1,0 +1,60 @@
+    .email{
+        width:100%;
+        height:55px;
+        font-size:15px;
+        padding-top: 55px;
+        border-bottom: 10px solid #ececec;
+        background-color: #FFFFFF;
+        span{
+            height:55px;
+            line-height: 55px;
+            margin-left:10px;
+            font-size:15px;
+        }
+        input{
+            height: 24px;
+            width: 80%;
+            margin-left: 20px;
+            border:0px;
+            font-size:15px;
+        }
+    }
+    .msg{
+      width: 100%;
+      .idear{
+          width:96%;
+          height:190px;
+          border:0px;
+          font-size:15px;
+          padding: 2%;
+      }
+    }
+
+    .footer{
+        width:100%;
+        height:250px;
+        background:#ECECEC;
+        padding-top: 20px;
+        .submit{
+            height:42px;
+            line-height: 42px;
+            color:white;
+            font-size:18px;
+            background:#3385ff;
+            border-radius:5px;
+            margin:25px 7px;
+            border: 0px;
+            text-align: center;
+        }
+        .tel{
+            color:#8d9294;
+            text-align: center;
+            line-height:24px;
+            font-size:14px;
+            font-weight: bolder;
+        }
+        .tel1{
+            color:#3385ff;
+        }
+
+    }

@@ -1,0 +1,38 @@
+.container {
+  overflow: hidden;
+  background: #fff;
+  > div {
+    float: left;
+  }
+  .focus {
+    width: 100%;
+    height: 100vw;
+    border-bottom: 1px solid #eee;
+  }
+  .normal {
+    width: 50%;
+    height: 66vw;
+    box-sizing: border-box;
+  }
+  .normal:nth-of-type(2n+1) {
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+  }
+  .normal:nth-of-type(2n) {
+    border-bottom: 1px solid #eee;
+  }
+  .odd:nth-of-type(2n) {
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+  }
+  .odd:nth-of-type(2n+1) {
+    border-bottom: 1px solid #eee;
+  }
+  .error {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    line-height: 60px;
+    height: 60px;
+  }
+}

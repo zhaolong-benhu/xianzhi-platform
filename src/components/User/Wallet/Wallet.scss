@@ -1,0 +1,99 @@
+.wallet{
+  width: 100%;
+  height: auto;
+  background: #fff;
+  color: #FFFFFF;
+
+.tips{
+    font-size: 15px;
+    background-color: #ECECEC;
+    padding: 0 10px;
+    margin-top: -20px;
+    .tiptitle{
+      color:#f77154;
+    }
+    .tip{
+      color:#999999;
+    }
+  }
+
+.account_details{
+    height: 35px;
+    line-height: 35px;
+    // padding: 0 10px;
+    background: #fff;
+    .title{
+      font-size: 16px;
+      color: #ababab;
+      float:left;
+      margin-left: 10px;
+    }
+    .select{
+      float: right;
+      position: relative;
+    }
+    .more_text{
+      font-size: 14px;
+      color: #999999;
+    }
+    i{
+      font-size:12px;
+      color:#157eda;
+    }
+  }
+
+.cur_mon{
+    height: 25px;
+    width: 97%;
+    background-color: #ECECEC;
+    padding-left: 3%;
+    line-height: 25px;
+    font-size: 15px;
+    color: #333333;
+}
+
+.nocontent{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    color: #ececec;
+    background-color: #ffffff;
+}
+
+.nomon{
+    color: black;
+    background: #ececec;
+    padding-left: 10px;
+    font-size: 15px;
+    color:black;
+  }
+
+.zan{
+    text-align: center;
+    font-size: 18px;
+    color: #dddddd;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FFFFFF;
+}
+  // .title{
+  //   height: 25px;
+  //   width: 97%;
+  //   background-color: #ECECEC;
+  //   padding-left: 3%;
+  //   line-height: 25px;
+  //   font-size: 15px;
+  //   color:black;
+  // }
+  // .nodata{
+  //   text-align: center;
+  //   font-size: 18px;
+  //   color: #dddddd;
+  //   margin-top: 50px;
+  //   // margin-bottom: 40px;
+  //   padding-bottom: 50px;
+  //   background-color: green;
+  // }
+
+}

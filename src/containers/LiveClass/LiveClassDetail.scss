@@ -1,0 +1,211 @@
+.container {
+  .contentWrapper {
+    height: calc(100% - 210px);
+    padding-top: 210px;
+    position: fixed;
+    width: 100%;
+    .Tabs {
+      display: flex;
+      > div {
+        box-sizing: border-box;
+        font-size: 16px;
+        width: 50%;
+        height: 44px;
+        text-align: center;
+        color: #666;
+        border-bottom: 1px solid #ddd;
+        > i {
+          font-size: 24px;
+        }
+      }
+      .selected {
+        color: #157eda;
+        border-bottom: 2px solid #157eda;
+      }
+    }
+    .chatWrapper {
+      height: 100%;
+    }
+    .infoWrapper {
+      height: 100%;
+      position:relative;
+      overflow: auto;
+    }
+  }
+  .hide {
+    display: none;
+  }
+
+  .videopage {
+      // position: relative;
+      // top: 0;
+      // width: 100%
+      width: 100%;
+      // height: 630px;
+      // background: red;
+
+      .video{
+          width: 100%;
+          height: 230px;
+          background: black;
+      }
+      .novideo{
+          width: 100%;
+          height: 230px;
+          background: black;
+          text-align: center;
+          .tips{
+              padding-top: 90px;
+              color: #fff;
+              padding-bottom: 15px;
+          }
+          .downloadBtn{
+             background: #00a6ea;
+             color: #fff;
+             text-align: center;
+             line-height: 24px;
+             height: 24px;
+             border-radius: 10px;
+             font-weight: 700;
+             width: 100px;
+            margin: 0 auto;
+          }
+      }
+      .anchorinfos{
+          width: 100%;
+          height: 50px;
+          background: #fff;
+          border-bottom: 1px solid #ececec;
+          display: flex;
+          .infos{
+            width: 70%;
+            height: 100%;
+            padding-left: 10px;
+            .info{
+              height: 25px;
+              .name{
+                font-size: 15px;
+                font-weight: 700;
+              }
+              .people_icon{
+                  color: #00a6ea;
+                  margin-left: 15px;
+              }
+              .onlineNum{
+                font-size: 13px;
+                margin-left: 5px;
+              }
+            }
+            .label{
+              height: 25px;
+              line-height: 25px;
+              .lab{
+                  font-size: 12px;
+                  color: #000;
+                  padding-right: 10px;
+              }
+            }
+
+          }
+          .app{
+            width: 30%;
+            height: 100%;
+            .btn{
+              background: #00A6EA;
+              color: #FFF;
+              text-align: center;
+              line-height: 24px;
+              height: 24px;
+              margin-top: 13px;
+              margin-left: 10%;
+              margin-right: 10%;
+              border-radius: 12px;
+              font-weight: 700;
+            }
+          }
+      }
+      .item{
+        width: 100%;
+        height: 35px;
+        border-bottom: 1px solid #ececec;
+        display: flex;
+        background: #fff;
+        .nav{
+          width: 50%;
+          color: #666666;
+          line-height: 35px;
+          text-align: center;
+        }
+        .nav_selected{
+          width: 50%;
+          color: #157eda;
+          line-height: 35px;
+          border-bottom: 3px solid #3773D8;
+          text-align: center;
+        }
+      }
+  }
+
+  .videoplay video {
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+  }
+
+  .videopane {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+  }
+  @-webkit-keyframes zoomIn {
+      from {
+          opacity: 0;
+          -webkit-transform: scale3d(.3, .3, .3);
+          transform: scale3d(.3, .3, .3);
+          margin-top: 0
+      }
+      50% {
+          opacity: 1
+      }
+      100% {
+          opacity: 0;
+          margin-top: -60px;
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1)
+      }
+  }
+
+  @keyframes zoomIn {
+      from {
+          opacity: 0;
+          -webkit-transform: scale3d(.3, .3, .3);
+          transform: scale3d(.3, .3, .3);
+          margin-top: 0
+      }
+      50% {
+          opacity: 1
+      }
+      100% {
+          opacity: 0;
+          margin-top: -60px;
+          -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1)
+      }
+  }
+
+  .zoomIn {
+      -webkit-animation-name: zoomIn;
+      animation-name: zoomIn
+  }
+
+}
+@media screen and (max-width: 360px) {
+  .container {
+    .contentWrapper {
+      height: calc(100% - 180px);
+      padding-top: 180px;
+    }
+  }
+}

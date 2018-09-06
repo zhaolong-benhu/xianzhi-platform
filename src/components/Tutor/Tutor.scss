@@ -1,0 +1,120 @@
+.list,.follow{
+    padding: 0 15px;
+    li{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 3%;
+      width: 100%;
+      .pic{
+        width: 35%;
+        margin-bottom: 3%;
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+      .info{
+        width:63%;
+        display: flex;
+        display: -webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+
+        justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -ms-flex-justify-content: space-between;
+
+        align-content: space-between;
+
+        flex-direction: column;
+        -webkit-flex-direction:column;
+        -ms-flex-direction:column;
+        border-bottom: 1px solid #eee;
+
+        span{
+          font-size: 12px;
+          color: #ababab;
+          &.fr{
+            float: right;
+          }
+        }
+
+        .title{
+          font-size: 15px;
+          color:#333333;
+          font-weight: 700;
+          .search{
+            font-size: 15px;
+            color: red;
+          }
+          .other{
+            font-size: 15px;
+            color: #333;
+            font-weight: 500;
+          }
+        }
+
+        .all_star{
+          float: right;
+        }
+
+        .name{
+          color: #333;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }
+
+        .combination{
+          margin-top: 3px;
+          .text{
+            margin-right: 10px;
+            border-radius: 3px;
+            color: #3773D8;
+            border:1px solid #3773D8;
+            padding: 0 2px;
+          }
+        }
+
+        .time{
+          margin:0 5px;
+        }
+        .free{
+          color: red;
+          font-size: 14px;
+        }
+        .sale{
+          font-size: 10px;
+          text-decoration: line-through;
+          margin:0 5px;
+        }
+        .discount{
+          font-size: 10px;
+          color: #ff2e2e;
+        }
+        .price{
+          span{
+            color: #ff2e2e;
+            font-size: 14px;
+            float: left;
+          }
+        }
+        h1{
+          font-size: 16px;
+          color: #333;
+        }
+
+      }
+    }
+  }
+  .follow{
+    border-bottom:10px solid #ececec;
+    li{
+      margin-bottom:0;
+      .info{
+        border-bottom: none;
+      }
+    }
+  }

@@ -1,0 +1,42 @@
+.item{
+  background: #fff;
+  height: 70px;
+  margin-top:20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  .info{
+    display: flex;
+    .head{
+      width: 50px;
+      height: 50px;
+      border: 25px;
+      margin-left: 10px;
+      margin-top: 10px;
+    }
+    .infos{
+      margin-left: 10px;
+    }
+    .name{
+      margin-top: 5px;
+      height: 30px;
+      line-height: 30px;
+      color: #00a6ea;
+      font-size: 16px;
+    }
+    .labels{
+      height: 30px;
+      line-height: 30px;
+      display: flex;
+    }
+    .label{
+      margin-right: 10px;
+    }
+}
+  .follow{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 25px;
+  }
+}

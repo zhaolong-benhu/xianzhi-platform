@@ -1,0 +1,23 @@
+.contactus{
+  line-height: 50px;
+  height: 50px;
+  width: 100%;
+  background: #FFFFFF;
+  font-size: 16px;
+  z-index: 10;
+  bottom: 0px;
+  border-top: 1px solid #ababab;
+  text-align: center;
+  font-family: "黑体 Std R";
+  position: fixed;
+  font-weight: 600;
+  .phone{
+    color:#157eda;
+    .tel{
+      color:#157eda;
+    }
+  }
+  .icon{
+    color:#157eda;
+  }
+}

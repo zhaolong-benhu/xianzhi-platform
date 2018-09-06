@@ -1,0 +1,97 @@
+.course{
+	.list,.follow{
+		padding: 15px 10px;
+	  // padding-top: 60px;
+	  background: #fff;
+		li{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 3%;
+			.pic{
+				width: 35%;
+				margin-bottom: 3%;
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+			.info{
+				width:63%;
+			    display: flex;
+			    justify-content: space-between;
+			    align-content: space-between;
+			    flex-direction: column;
+			    padding-bottom: 3%;
+    			border-bottom: 1px solid #eee;
+
+				span{
+					// font-size: 13px;
+					// color: #ababab;
+          // margin-top: -2px;
+					&.fr{
+						float: right;
+						color: #999999;
+					}
+				}
+
+        .title{
+          font-size: 15px;
+          color:#333333;
+          font-weight: 700;
+        }
+				.name{
+					color: #999999;
+				}
+				.days{
+					float: right;
+	    		color: red;
+				}
+				.time{
+					margin:0 4px;
+				}
+	        .free{
+	          color: red;
+	          font-size: 14px;
+	        }
+				.sale{
+					font-size: 10px;
+					text-decoration: line-through;
+					margin:0 5px;
+          color:#ABABAB;
+				}
+				.discount{
+					font-size: 10px;
+					color: #ff2e2e;
+				}
+				.is_study_status{
+						color: #999999;
+						font-size: 14px;
+						float: left;
+				}
+				.is_study_learn{
+						color: #61d261;
+						font-size: 14px;
+						float: left;
+				}
+				.status_finish{
+						color: red;
+						font-size: 14px;
+						float: left;
+				}
+			}
+		}
+	}
+	.follow{
+    padding-top:0;
+    border-bottom:10px solid #ececec;
+    padding-bottom: 0px;
+  		li{
+  			padding: 0px;
+        border-bottom: none;
+        margin-bottom: 0px;
+  			.info{
+  				border-bottom: none;
+  			}
+  		}
+  	}
+}

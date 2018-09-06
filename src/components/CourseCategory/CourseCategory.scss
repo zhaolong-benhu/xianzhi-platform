@@ -1,0 +1,157 @@
+.category{
+	display: flex;
+	font-size: 14px;
+	border-top: 1px solid #eee;
+	ol{
+		width: 25%;
+		background: #eee;
+		li{
+				height: 50px;
+				width: 100%;
+				display: flex;
+  			justify-content: center;
+  			align-items: center;
+  			background: #eee;
+  			border-bottom: 1px solid #ddd;
+				a{
+					color:#333;
+				}
+		}
+		li.active{
+			background: #fff;
+			color: #157eda;
+			&:last-child{
+  				border-bottom:none;
+  			}
+		}
+
+	}
+	.item{
+		width: 90px;
+
+	}
+	.list{
+		padding: 2%;
+		width: 71%;
+		dl{
+		    border-bottom: 1px solid #ddd;
+				overflow: hidden;
+		    &:last-child{
+  				border-bottom:none;
+  			}
+    		dt{
+    			width: 100%;
+    			height: 55px;
+    			font-size: 16px;
+    			line-height: 45px;
+    		}
+			dd{
+				width: 30%;
+				height: 50px;
+				background: #f2f2f2;
+				border-radius: 5px;
+				margin-bottom: 3%;
+				float: left;
+				margin-left: 3%;
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 13px;
+				&.ac{
+					background: #63a9e6;
+					color: #ffffff;
+				}
+			}
+			a{
+				color:#333;
+				text-decoration: none;
+				width: 30%;
+			}
+		}
+	}
+	.hide{
+		display: none;
+	}
+}
+.CourseCategory{
+	display: flex;
+	font-size: 14px;
+	border-top: 1px solid #eee;
+	ol{
+		width: 33%;
+		background: #eee;
+		li{
+			height: 45px;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #eee;
+			border-bottom: 1px solid #ddd;
+		}
+		li.active,li.ac{
+			background: #fff;
+			color: #157eda;
+			&:last-child{
+  				border-bottom:none;
+  			}
+		}
+		li.active{
+			background: #ddd;
+		}
+
+	}
+	.list{
+		flex-grow: 2;
+		width: 34%;
+		overflow-y:auto;
+		dl{
+		    &:last-child{
+  				border-bottom:none;
+  			}
+    		dt{
+    			width: 100%;
+    			height: 55px;
+    			font-size: 16px;
+    			line-height: 45px;
+    		}
+			dd{
+				width: 100%;
+				height: 45px;
+				text-align: center;
+				line-height: 45px;
+				&.ac{
+					color: #157eda;
+				}
+			}
+			a{
+				width: 100%;
+				text-decoration: none;
+			}
+		}
+	}
+	a{
+		color:#333;
+		text-decoration: none;
+	}
+	.hide{
+		display: none;
+	}
+}
+@media screen and (max-width: 360px){
+		.category{
+			ol{
+				li{
+					height: 38px;
+				}
+			}
+			.list{
+				dl{
+					dd{
+						font-size: 12px;
+					}
+				}
+			}
+		}
+}

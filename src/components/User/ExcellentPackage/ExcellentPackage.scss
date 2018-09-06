@@ -1,0 +1,94 @@
+.course{
+	.list{
+		padding: 15px 10px;
+    // padding-top: 60px;
+    background: #fff;
+		li{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 3%;
+			.pic{
+				width: 35%;
+				margin-bottom: 3%;
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+			.info{
+				width:63%;
+			    display: flex;
+			    justify-content: space-between;
+			    align-content: space-between;
+			    flex-direction: column;
+			    padding-bottom: 3%;
+    			border-bottom: 1px solid #eee;
+				span{
+
+					&.fr{
+						float: right;
+						color: #999999;
+					}
+				}
+
+        .count{
+          color: #000000;
+          font-size: 13px;
+        }
+		.head{
+			height: 25px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: -webkit-box;
+			-webkit-line-clamp: 1;
+			-webkit-box-orient: vertical;
+			.label{
+				background-color: #659df2;
+				border-radius: 3px;
+				font-size: 13px;
+				color: #fff;
+				padding: 0 4px;
+			}
+			.title{
+	          font-size: 15px;
+	          color:#333333;
+	          font-weight: 700;
+			  padding-left: 5px;
+	        }
+		}
+
+		.name{
+		  color: #ababab;
+          margin-left: 10px;
+		}
+		.days{
+			float: right;
+			color: red;
+		}
+		.time{
+			margin:0 4px;
+		}
+        .over{
+          color: green;
+          font-size: 13px;
+        }
+		.is_study_timeout{
+			color: #999999;
+			font-size: 14px;
+			float: left;
+		}
+		.status_learning{
+				color: #61d261;
+				font-size: 14px;
+				float: left;
+		}
+		.status_unfinish{
+			color: #ff2e2e;
+			font-size: 14px;
+			float: left;
+		}
+
+		}
+		}
+	}
+}

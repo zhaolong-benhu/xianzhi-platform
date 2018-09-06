@@ -1,0 +1,26 @@
+.maintitle,.title,.notstudy{
+  color: #333333;
+  font-size: 17px;
+  line-height: 40px;
+  border-bottom: 1px solid #ececec;
+  padding: 0 10px;
+
+
+}
+.title{
+  color: #333333;
+  font-size: 15px;
+  .whenlong{
+    float: right;
+    color: #ababab;
+  }
+
+}
+.notstudy{
+  color: #ababab;
+  font-size: 15px;
+  .whenlong{
+    float: right;
+    color: #ababab;
+  }
+}

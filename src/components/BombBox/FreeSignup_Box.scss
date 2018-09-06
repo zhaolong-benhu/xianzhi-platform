@@ -1,0 +1,54 @@
+.bomb_box{
+  background-color: #FFFFFF;
+  z-index: 1000;
+  position: fixed;
+  left: 50%;
+  top: 45%;
+  margin-left: -35%;
+  margin-top: -25px;
+  width: 70%;
+  height: 193px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ececec;
+
+
+  .pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .img{
+      width: 11%;
+    }
+    height: 25%;
+
+  }
+
+
+  .title{
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    height: 25%;
+        text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .name{
+    text-align: center;
+    color:#157eda;
+    font-size: 17px;
+    //padding: 5px 0px;
+    height: 25%;
+
+  }
+  .tips{
+    text-align: center;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    height: 25%;
+    //padding: 4px 0px;
+  }
+}

@@ -1,0 +1,99 @@
+.course{
+	.list,.follow{
+	  padding: 15px 10px;
+      background:#fff;
+		li{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 3%;
+			.pic{
+				width: 35%;
+				margin-bottom: 3%;
+				img{
+					width: 100%;
+					height: auto;
+				}
+			}
+			.info{
+				width:63%;
+			    display: flex;
+			    justify-content: space-between;
+			    align-content: space-between;
+			    flex-direction: column;
+			    padding-bottom: 3%;
+    			border-bottom: 1px solid #eee;
+				span{
+					&.fr{
+						float: right;
+						color: #ababab;
+					}
+				}
+        .title{
+	          font-size: 15px;
+	          color:#333333;
+	          font-weight: 700;
+        }
+				.name{
+					color: #333;
+				}
+				.time{
+					margin:0 4px;
+				}
+				.status_finish{
+						color: #61d261;
+						font-size: 14px;
+						float: left;
+				}
+				.status_unfinish{
+						color: red;
+						font-size: 14px;
+						float: left;
+				}
+				.status_learning{
+						color: #61d261;
+						font-size: 14px;
+						float: left;
+				}
+			}
+		}
+	}
+	.follow{
+	    padding-top:0;
+	    border-bottom:10px solid #ececec;
+	    padding-bottom: 0px;
+  		li{
+  			padding: 0px;
+	        border-bottom: none;
+	        margin-bottom: 0px;
+  			.info{
+  				border-bottom: none;
+  			}
+  		}
+  	}
+	.pay{
+		border-top: 10px solid #ececec;
+		height: 45px;
+		line-height: 45px;
+		background-color: #FFFFFF;
+		.text{
+			color: #157eda;
+			font-size: 14px;
+			font-family: "Adobe 黑体 Std R黑体";
+			padding-left: 10px;
+		}
+		.icon{
+			float: right;
+			padding-right: 10px;
+			font-family:"iconfont" !important;
+	        font-size:12px;
+	        font-style:normal;
+	        -webkit-font-smoothing: antialiased;
+	        -webkit-text-stroke-width: 0.2px;
+	        -moz-osx-font-smoothing: grayscale;
+	        color:#ababab;
+		}
+	}
+	.pay2{
+		display: none;
+	}
+}

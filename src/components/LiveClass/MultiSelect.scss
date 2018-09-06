@@ -1,0 +1,132 @@
+.multiSelect {
+  line-height: 45px;
+  font-size: 14px;
+  color: #333;
+  padding:0 8px;
+  display: flex;
+  background: #fff;
+  z-index: 1000;
+  position: relative;
+  height:auto;
+  width:100%;
+  .clear_btn {
+    font-size: 13px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ababab;
+    position: absolute;
+    right: 2px;
+    top: 0px;
+  }
+  > label {
+    width: 25%;
+  }
+  > div {
+    width: 70%;
+    .default {
+      color: #aaa;
+    }
+    .selected {
+      color: #333;
+    }
+  }
+  > input, textarea {
+    width: 70%;
+    font-size: 14px;
+    border: none;
+  }
+  > textarea {
+    margin-top: 10px;
+    resize: none;
+  }
+}
+.popup {
+  .mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(55, 55, 55, 0.6);
+    height: 100%;
+    z-index: 100;
+  }
+  .chooseContent {
+    position: fixed;
+    top: 197px;
+    left: 0;
+    width: calc( 100% - 20px );
+    background: #fff;
+    padding: 10px;
+    z-index: 1000;
+    .title {
+      span {
+        font-size: 16px;
+        line-height: 28px;
+        color:#333;
+        font-weight: 600;
+      }
+      .btn {
+        float: right;
+        background: #157eda;
+        width: 70px;
+        height: 28px;
+        text-align: center;
+        color: #fff;
+        border-radius:4px;
+      }
+    }
+    .classify{
+      margin-top:6px;
+      h5{
+        line-height: 1.6;
+        font-size: 14px;
+        font-weight: 600;
+
+      }
+      span{
+        width:25%;
+        display: inline-block;
+        font-size: 14px;
+        line-height:1.6;
+        height:20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .multiSelect {
+    > label {
+      font-size: 12px;
+      width: 30%;
+    }
+    > div {
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+  .popup {
+    .chooseContent {
+      .title {
+        span {
+          font-size: 14px;
+        }
+        .btn {
+          width: 60px;
+        }
+      }
+      .classify {
+        span {
+          font-size: 12px;
+        }
+        h5 {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

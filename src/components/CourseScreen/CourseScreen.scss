@@ -1,0 +1,166 @@
+.fixed{
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    top: 45px;
+}
+.zindex{
+	z-index: 99;
+}
+.screeninfo{
+	height: 35px;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #999;
+    em{
+    	color:#64acec;
+    }
+}
+.screen{
+  	height: 45px;
+  	width: 100%;
+  	display: flex;
+    align-items: stretch;
+  	border-top: 1px solid #eee;
+  	border-bottom: 1px solid #eee;
+	ol{
+  		width: 100%;
+  		display: flex;
+	    align-items: inherit;
+      &.nothing{
+        li{
+            &:last-child{
+              &:after{
+    					  content: "";
+              }
+    				}
+        }
+      }
+		li{
+  			width: 33%;
+  			border-right: 1px solid #eee;
+  			display: flex;
+    		align-items: center;
+    		justify-content: center;
+    		font-size: 14px;
+    		color: #666;
+			&:last-child{
+				border-right:none;
+			}
+			&:after{
+				content: "\e61d";
+				display: block;
+				font-family:"iconfont" !important;
+				font-size: 16px;
+				margin-left: 5px;
+			}
+			&.active,&.document_active{
+				color: #157eda;
+				&:after{
+					content: "\e61c";
+				}
+			}
+      &.document_active{
+        width: 50%;
+      }
+      &.document{
+        width: 50%;
+      }
+		}
+	}
+}
+.items{
+	padding: 0 3%;
+  width: 94%;
+  overflow-y: auto;
+	ul{
+	  display: flex;
+  	flex-direction: column;
+		li{
+			  display: flex;
+    		justify-content: space-between;
+    		font-size: 14px;
+    		height: 38px;
+    		align-items: center;
+  			&.active{
+  				color: #157eda;
+  				&:after{
+  					content: "\e60b";
+  					display: block;
+  					font-family:"iconfont" !important;
+  					font-size: 18px;
+  				}
+  			}
+		}
+		&.category{
+			justify-content: space-between;
+			flex-direction:row;
+			padding-top: 3%;
+			li{
+				  width: 30%;
+    			height: 40px;
+				  background: #f2f2f2;
+				  border-radius: 5px;
+				  margin-bottom: 15px;
+    			justify-content: center;
+    			align-items: center;
+    			display: flex;
+    			&.active{
+					  background: #dceefd;
+          }
+					&:after{
+						content: '';
+					}
+          &.course{
+            width: 23%;
+          }
+			}
+		}
+    &.document{
+        display: block;
+        li{
+            width: 30%;
+            float: left;
+            margin-left: 3%;
+        }
+    }
+    &.ihma{
+        display: block;
+        padding: 3% 0;
+        overflow: hidden;
+        li{
+            font-size: 14px;
+            height: 38px;
+            width: 30%;
+            text-align: center;
+            float: left;
+            margin: 0 5% 3% 0;
+            line-height: 38px;
+            border-radius: 3px;
+            background: #f2f2f2;
+            display: block;
+            &:nth-of-type(3n+0){
+              margin-right:0;
+            }
+            &.active{
+              color: #157eda;
+              background: #dcedfd;
+              font-weight: 600;
+              &:after{
+      					content: "";
+              }
+            }
+        }
+    }
+    &.tutar{
+      justify-content: flex-start;
+      li{
+          float: left;
+          margin-right: 4%;
+      }
+    }
+	}
+}

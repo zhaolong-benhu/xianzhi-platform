@@ -1,0 +1,70 @@
+.container{
+  height: 50px;
+  width: 100%;
+  background-color: #FFFFFF;
+  z-index: 99;
+  //position: fixed;
+  bottom: 0px;
+
+  //padding-bottom: 10px;
+  border-top: 1px solid #ECECEC;
+
+
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content:  space-around;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  font-family: "宋体";
+  font-size: 14px;
+  text-align: center;
+  line-height: 50px;
+
+  .consultation{
+    width: 40%;
+
+    .consultation_icon{
+      font-family:"iconfont" !important;
+      font-size:16px;
+      font-style:normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale;
+      color:#3773D8;
+    }
+    .consultation_text{
+      font-size: 14px;
+      color: #666666;
+      margin-left: 5px;
+    }
+  }
+
+  .line{
+    width: 1px;
+    height: 100%;
+    background-color: #ECECEC;
+  }
+
+
+
+  .signup,.signup2,.signup3,.signup4{
+    width: 59%;
+    background-color: #EB262F;//红色
+    .signup_text{
+      font-size: 20px;
+      color: #ffffff;
+    }
+  }
+  .signup2{
+    background-color: #F29E00;//黄色
+  }
+  .signup3{
+    background-color: #CCCDCC;//灰色
+  }
+  .signup4{
+    background-color: #6FCD50;//绿色
+  }
+
+}

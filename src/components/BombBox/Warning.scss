@@ -1,0 +1,30 @@
+.bomb_box{
+  z-index: 1000;
+  position: fixed;
+  left: 50%;
+  top: 35%;
+  margin-left: -30%;
+  width: 54%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(55, 55, 55, 0.7);
+  padding: 3%;
+  .pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+    .img{
+      width: 10%;     
+    }
+  }
+  .text{
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;    
+  }  
+}
+.hide{
+  display:none;
+}

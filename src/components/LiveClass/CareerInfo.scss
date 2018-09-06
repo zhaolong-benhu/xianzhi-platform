@@ -1,0 +1,79 @@
+.container {
+  .header {
+    color: #aaa;
+    background: #eee;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 8px;
+  }
+  > div {
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    padding: 0 8px;
+    background: #fff;
+    > label {
+      width: 25%;
+      display: inline-block;
+      float:left;
+    }
+    > div {
+      //width: 70%;
+      .default {
+        color: #aaa;
+        font-size:14px;
+      }
+      .selected {
+        color: #333;
+      }
+      .error{
+        color:red;
+        float: right;
+        line-height: 45px;
+        width:calc(20% - 4px);
+        margin-left:4px;
+      }
+      > input, textarea {
+        width:100%;
+        font-size: 14px;
+        border: none;
+      }
+      > textarea {
+        width:80%;
+        margin: 10px 0 ;
+        resize: none;
+        height:calc( 100% - 20px );
+      }
+    }
+
+    .tab {
+      p {
+        float: left;
+        width: 40%;
+        .select {
+          color: #157eda;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .container {
+    > div {
+      > label {
+        display: inline-block;
+        font-size: 12px;
+        width: 30%;
+        float:left;
+      }
+      > div {
+        span {
+          font-size: 14px;
+          width: 80%;
+        }
+      }
+    }
+  }
+}

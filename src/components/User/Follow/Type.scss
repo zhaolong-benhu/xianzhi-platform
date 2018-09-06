@@ -1,0 +1,24 @@
+.type{
+   width: 100%;
+   height: 30px;
+   color:#999999;
+   line-height: 30px;
+   font-size: 15px;
+
+  .title{
+    float: left;
+    padding-left: 10px;
+  }
+  .follow_date{
+    float: right;
+    padding-right: 10px;
+  }
+
+}
+
+
+.separate{
+  width: 100%;
+  height: 10px;
+  background-color: #ECECEC;
+}

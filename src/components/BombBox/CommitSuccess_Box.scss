@@ -1,0 +1,33 @@
+.bomb_box{
+  background-color: #F5F5F5;
+  z-index: 1000;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -16%;
+  margin-top: -7px;
+  width: 32%;
+  height: 14%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+
+  .pic{
+    height: 60%;
+    .img{
+      width: 24%;
+      margin-left: 38%;
+      margin-right: 38%;
+      margin-top: 12%;
+    }
+  }
+
+  .text{
+    height: 40%;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    font-family:"黑体";
+  }
+
+}

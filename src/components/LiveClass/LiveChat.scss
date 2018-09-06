@@ -1,0 +1,186 @@
+.container{
+    width: calc( 100% - 28px );
+    background: #f6f6f6;
+    height: calc( 100% - 100px);
+    overflow: auto;
+    padding:0 14px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .videodiscuss {
+       position: fixed;
+       bottom: 50px;
+       left: 0;
+       right: 0;
+       height: 27%;
+       overflow-y: scroll;
+    //    top: 50%;
+       margin-top: 20px;
+    }
+    .videodiscuss2{
+      display: none;
+    }
+    .videosmslist{
+      color: #fff;
+      margin: 0 15px;
+      li{
+        margin-bottom: 5px;
+        &:nth-child(1) {
+            opacity: .4
+        }
+        &:nth-child(2) {
+            opacity: .6
+        }
+        &:nth-child(3) {
+            opacity: .8
+        }
+      }
+      .smspane {
+          display:inline-block;
+          .smstext {
+            padding: 2px 10px;
+            font-size: 14px;
+            background-color: #fff;
+            border-radius: 10px;
+            text-align: left;
+            max-width: 250px;
+            line-height: 18px;
+            color: #000;
+            word-wrap: break-word;
+              span{
+                padding-right:2px;
+                vertical-align:top;
+                &.user_name_green {
+                  color:#1fbcb6;
+                }
+                &.user_name_red {
+                  color:#f12b5b;
+                }
+                &.user_name_blue {
+                  color:#2b84f1;
+                }
+                &.user_name_org {
+                  color:#ff7906;
+                  display: none;
+                }
+              }
+          }
+      }
+      .user {
+        .userName {
+          color: #157eda;
+        }
+      }
+    }
+    .sendbox{
+      position: fixed;
+      bottom: 0;
+      z-index:10;
+      background: #fff;
+      height:-1px;
+      width:100%;
+      left: 0;
+      right: 0;
+      .sms{
+        position: relative;
+        display: flex;
+        i{
+          font-size:34px;
+          line-height: 50px;
+          width:8%;
+          margin:0 2%;
+        }
+        .chatinput{
+          width:74%;
+          height: 40px;
+          background: #eeeeee;
+          border-radius: 25px;
+          margin-top: 7px;
+          display: flex;
+          justify-content: space-between;
+          .login{
+            color: #00a6ea;
+            font-size: 14px;
+            line-height: 40px;
+            padding-left: 10px;
+            height: 40px;
+          }
+          .logined{
+            display: none;
+          }
+          .input{
+            width: 62%;
+            background: #eeeeee;
+            padding-left: 10px;
+            border: none;
+            font-size: 15px;
+          }
+          .input2{
+            width: 72%;
+            background: #eeeeee;
+            border: none;
+            font-size: 15px;
+            padding-left: 10px;
+            margin-left: 15px;
+          }
+          .send{
+            color: #000;
+            font-size: 20px;
+            float: right;
+            padding-right: 10px;
+            line-height: 40px;
+          }
+        }
+        .redpaper{
+          color: red;
+        }
+        .emotion{
+          padding: 3% 2%;
+          width: 96%;
+          background: white;
+          border-top: 1px solid #ececec;
+          z-index: 10;
+          overflow: hidden;
+          li{
+            float: left;
+            img{
+                padding: 4px;
+            }
+          }
+        }
+      }
+      .banner{
+        position: relative;
+        .exit{
+          position: absolute;
+          top: -6px;
+          right: 0;
+          color: #fff;
+          font-size: 24px;
+        }
+      }
+      .Redbonus{
+        position: absolute;
+        bottom: 130%;
+        right: 4%;
+        .icon{
+           color: red;
+           font-size: 40px;
+        }
+      }
+      .hide{
+        display: none;
+      }
+  }
+}
+@media screen and (max-width: 360px) {
+  .container{
+    .sendbox{
+      .sms{
+          i{
+            margin-right: 3%;
+          }
+      }
+    }
+  }
+}

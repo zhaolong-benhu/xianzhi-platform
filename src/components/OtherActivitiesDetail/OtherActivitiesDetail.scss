@@ -1,0 +1,315 @@
+.container{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 80px;
+
+  .bomb_box{
+    background-color: #F5F5F5;
+    z-index: 1000;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -35%;
+    margin-top: -70px;
+    width: 70%;
+    height: 27%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    .info{
+      height: 47%;
+      width: 84%;
+      font-size: 16px;
+      padding: 8%;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+
+      .tips{
+        color: #000;
+        height: 25%;
+      }
+      .title{
+        color: #3773D8;
+        height: 25%;
+      }
+      .price{
+        color: red;
+        height: 25%;
+      }
+    }
+    .yesorno{
+      height: 30%;
+      width: 100%;
+      border-top: 1px solid #ababab;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+      justify-content: space-between;
+      a{
+        width: 50%;
+        font-size: 16px;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #ababab;
+        text-decoration: none;
+        &.ok{
+          color: #3773D8;
+        }
+        &:last-child{
+          border-right:none;
+        }
+      }
+    }
+
+  }
+
+  .top_pic{
+    width: 100%;
+    //height: 100%;
+    padding-top: 45px;
+
+    .img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .detail{
+    width: auto;
+    padding: 15px 10px;
+      .title{
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .share{
+        font-family:"iconfont" !important;
+        font-size:18px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+        float: right;
+        padding-right: 10px;
+        border-left: 1px solid #eee;
+        padding-left: 13px;
+      }
+    .interest{
+      color: #ababab;
+      font-size: 15px;
+      line-height: 30px;
+    }
+
+    .signup_num{
+      margin-left: 20px;
+      color: #000000;
+      font-size: 15px;
+
+    }
+
+
+    .status{
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ECECEC;
+      .free{
+        color: red;
+        font-size: 15px;
+      }
+      .signup{
+        margin-left: 20px;
+        color: #FFFFFF;
+        font-size: 13px;
+        background-color: #81CD13;
+        border-radius: 3px;
+        padding: 0 4px;
+      }
+      .signup2{
+        margin-left: 20px;
+        color: #FFFFFF;
+        font-size: 13px;
+        background-color: red;
+        border-radius: 3px;
+        padding: 0 4px;
+      }
+      .now_price{
+        color: red;
+        font-size: 15px;
+      }
+      .original_price{
+        margin: 0 5px;
+        color: #ababab;
+        font-size: 13px;
+        text-decoration: line-through;
+      }
+      .discount{
+        color: red;
+        font-size: 13px;
+      }
+    }
+    .key,.key1,.key2{
+      color: #ababab;
+      font-size: 15px;
+      line-height: 30px;
+    }
+    .key1{
+      letter-spacing: 30px;
+    }
+    .key2{
+      letter-spacing: 7px;
+    }
+    .colon{
+      margin-left: -25px;
+      padding-right: 10px;
+    }
+    .colon2{
+      padding-right: 10px;
+      margin-left: -1px;
+    }
+    .colon3{
+      padding-right: 10px;
+      margin-left: 5px;
+    }
+
+    .value{
+      color: #000000;
+      font-size: 15px;
+      line-height: 30px;
+    }
+
+    .pos{
+      font-family:"iconfont" !important;
+      font-size:18px;
+      font-style:normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale;
+      margin-left: 20px;
+      color:#3773D8;
+      text-decoration: none;
+    }
+    .phone{
+      font-family:"iconfont" !important;
+      font-size:18px;
+      font-style:normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale;
+      margin-left: 16px;
+      color: red;
+      text-decoration: none;
+    }
+  }
+  .content{
+    width: auto;
+    padding:8px;
+    //margin: 0 10px;
+
+    .title{
+      font-size: 15px;
+      color: #000;
+      //font-family: "é»‘ä½“";
+      border-bottom: 1px solid #ECECEC;
+      padding-bottom:6px;
+    }
+
+    .contents{
+      color: #000000;
+      font-size: 15px;
+      line-height: 30px;
+      margin-top: 10px;
+    }
+
+
+  }
+
+
+  .float_bottom{
+    height: 50px;
+    width: 100%;
+    background-color: #FFFFFF;
+    //z-index: 99;
+    position: fixed;
+    bottom: 0px;
+
+
+
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content:  space-around;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    font-family: "å®‹ä½“";
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+
+    .consultation{
+      width: 20%;
+
+      .consultation_icon{
+        font-family:"iconfont" !important;
+        font-size:16px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+        color:#3773D8;
+      }
+      .consultation_text{
+        font-size: 14px;
+        color: #666666;
+        margin-left: 5px;
+      }
+    }
+
+    .line{
+      width: 1px;
+      height: 100%;
+      background-color: #ECECEC;
+    }
+
+    .follow{
+      width: 20%;
+      .follow_icon{
+        font-family:"iconfont" !important;
+        font-size:16px;
+        font-style:normal;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+        color:#3773D8;
+      }
+      .follow_text{
+        font-size: 14px;
+        color: #666666;
+        margin-left: 5px;
+      }
+    }
+
+    .signup{
+      width: 59%;
+      background-color: red;
+      .signup_text{
+        font-size: 16px;
+        color: #ffffff;
+      }
+    }
+
+
+
+  }
+
+  .float_share{
+    height: 195px;
+    width: 100%;
+    background-color: #F6F6F6;
+    position: fixed;
+    bottom: 0px;
+    z-index: 9999;
+  }
+}

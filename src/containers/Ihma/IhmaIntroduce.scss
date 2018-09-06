@@ -1,0 +1,34 @@
+.container{
+    padding-top: 45px;
+    .img{
+        text-align: center;
+        padding: 10px;
+        border-top: 10px solid #EEEEEE;
+        .ihma{
+            width: 60%;
+            height: 100%;
+        }
+    }
+    .introduce{
+        margin-top: 15px;
+        .text{
+            color: #333333;
+            font-size: 16px;
+            font-family: "黑体";
+            line-height: 30px;
+            padding: 0 10px;
+            text-indent: 2em;
+        }
+    }
+    .return{
+        background-color: #EEEEEE;
+        color: #157eda;
+        font-size: 16px;
+        text-align: center;
+        width: 80%;
+        height: 45px;
+        margin-left: 10%;
+        margin-top: 30px;
+        line-height: 45px;
+    }
+}

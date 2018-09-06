@@ -1,0 +1,133 @@
+.follow,.follow2{
+  width: 100%;
+  height: auto;
+  padding-top: 45px;
+  .head,.head2{
+    padding: 0 3%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    background-color: #ECECEC;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    position: fixed;
+    width: 96%;
+    z-index: 100;
+
+      .searchbox,.searchbox2{
+        width: 98%;
+       .fixed{
+         text-align: center;
+         background: #fff;
+         height: 28px;
+         margin-top: 18px;
+         line-height: 28px;
+         border-radius: 5px;
+         color: #ababab;
+         font-size: 12px;
+        }
+
+        .inputtext{
+          width: 60%;
+          height: 28px;
+          border-radius: 5px;
+          border: none;
+          padding-left: 107%;
+          background-color: #FFFFFF;
+        }
+        .search_icon{
+          font-family: "iconfont" !important;
+          font-size: 18px;
+          font-style: normal;
+          -webkit-font-smoothing: antialiased;
+          -webkit-text-stroke-width: 0.2px;
+          -moz-osx-font-smoothing: grayscale;
+          color: #ababab;
+          position: absolute;
+          left: 35%;
+        }
+      }
+      .cancel{
+        width: 18%;
+        text-align: right;
+        color: #157eda;
+      }
+      .searchbox2{
+        width: 82%;
+        .inputtext{
+            width:100%;
+            padding-left: 25px;
+        }
+        .search_icon{
+          left: 4%;
+        }
+        .clear_btn{
+            font-family: "iconfont" !important;
+            font-size: 13px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-stroke-width: 0.2px;
+            -moz-osx-font-smoothing: grayscale;
+            color: #ababab;
+            position: fixed;
+            right: 56px;
+            top: 48px;
+        }
+        .hideclear_btn{
+            display: none;
+        }
+      }
+  }
+  .head2{
+    position: absolute;
+  }
+  .allFollow,.allFollow2{
+    padding-top: 60px;
+    background: #fff;
+  }
+  .allFollow2{
+    padding-top: 0px;
+  }
+}
+.follow2{
+  padding-top: 0px;
+}
+
+@media screen and (max-width: 320px) {
+  .follow{
+      .head{
+          .searchbox{
+              .search_icon{
+                  left: 31%;
+              }
+          }
+         .searchbox2{
+            .inputtext{
+                 width: 98%;
+             }
+            .clear_btn{
+               right: 45px;
+            }
+         }
+      }
+    // height:160px;//这里是个坑
+  }
+}
+
+
+@media screen and (max-width: 768px) and (min-width:600px) {
+  .follow{
+      .head{
+         .searchbox2{
+            .inputtext{
+                 width: 110%;
+                 padding-left: 30px;
+             }
+            .clear_btn{
+               right: 60px;
+            }
+         }
+      }
+  }
+}

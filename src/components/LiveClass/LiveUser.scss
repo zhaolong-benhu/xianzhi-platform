@@ -1,0 +1,62 @@
+.videopanehead{
+  .videopaneinfo {
+      float: left;
+      display: inline-block;
+      background: rgba(81, 74, 75,0.8);
+      border-radius: 51px;
+      height: 51px;
+      margin: 15px;
+      .userinfo{
+        overflow: hidden;
+        padding-left: 10px;
+        padding-right: 20px;
+      }
+      .userinfonum {
+          font-size: 13px;
+          color: #fff;
+          i{
+            font-size: 12px;
+            &.packet{
+              margin-left: 10px;
+              color: red;
+            }
+          }
+      }
+      .videoinfo {
+          z-index: 2;
+          position: relative;
+          padding: 3px
+      }
+      .userimg {
+          display: inline-block;
+          float: left;
+          img{
+            width: 46px;
+            height: 46px;
+            border-radius: 23px;
+          }
+      }
+      .userinfotext {
+          display: inline-block;
+          vertical-align: top;
+          padding-top: 5px;
+          color: #fff;
+          max-width: 200px
+      }
+      .userinfoname {
+          line-height: 16px
+      }
+      .usericonfans, .usericonlike {
+          background-size: 11px 10px;
+          width: 11px;
+          height: 10px;
+          display: inline-block;
+          margin-right: 2px
+      }
+  }
+  .exit{
+    color:#fff;
+    font-size: 40px;
+    float: right;
+  }
+}
